@@ -1,0 +1,63 @@
+.documentation {
+    padding-left: 12px;
+    &__title {
+        max-width: 697px;
+        margin: 0 auto;
+        margin-bottom: calc(40px + (123 - 40) * ((100vw - 430px) / (1440 - 430)));
+    }
+    &__container {
+        display: flex;
+        gap: 40px;
+    }
+    &__list {
+        padding-left: calc(40px + (290 - 40) * ((100vw - 430px) / (1440 - 430)));
+    }
+    &__item {
+        font-size: calc(17px +1 * ((100vw - 430px) / (1440 - 430)));
+        margin-bottom: 29px;
+        position: relative;
+        padding-left: 55px;
+        &::before {
+            content: url('../assets/svg/marker.svg');
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    &__item:last-child {
+        margin-bottom: 0;
+    }
+    &__image {
+        width: calc(176px + (270 - 176) * ((100vw - 430px) / (1440 - 430)));
+        height: calc(176px + (270 - 176) * ((100vw - 430px) / (1440 - 430)));
+    }
+}
+
+@media (max-width: 950px) {
+    .documentation {
+        &__container {
+            flex-direction: column;
+        }
+        &__image {
+            display: block;
+            margin-left: auto;
+            margin-top: -70px;
+        }
+    }
+
+    .documentation .container {
+        padding: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .documentation {
+        &__title {
+            max-width: 330px;
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.payment {
+    padding-top: calc(82px + (123 - 82) * ((100vw - 430px) / (1440 - 430)));
+    padding-left: 15px;
+    &__title {
+        margin-bottom: 70px;
+    }
+    &__image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 90px;
+    }
+}

@@ -1,0 +1,74 @@
+.formalization {
+    padding-top: calc(92px + (110 - 92) * ((100vw - 430px) / (1440 - 430)));
+    &__title {
+        margin-bottom: calc(40px + (105 - 40) * ((100vw - 430px) / (1440 - 430)));
+    }
+    &__items {
+        display: flex;
+        gap: calc(29px + (43 - 29) * ((100vw - 430px) / (1440 - 430)));
+        padding-left: 8px;
+    }
+    &__card {
+        flex: 0 0 33.333%;
+        max-width: 400px;
+        background: #ffffff;
+        border-radius: 26px;
+        border: 2px solid rgba(66, 111, 177, 0.28);
+    }
+    &__content {
+        padding: 35px 32px 42px;
+    }
+    &__icon {
+        margin-bottom: 20px;
+    }
+    &__header {
+        text-transform: lowercase;
+        font-size: calc(30px + 4 * ((100vw - 430px) / (1440 - 430)));
+        font-family: $titles-font;
+        margin-bottom: 10px;
+    }
+    &__subtitle {
+        font-size: calc(17px + 3 * ((100vw - 430px) / (1440 - 430)));
+    }
+}
+
+@media (max-width: 1340px) {
+    .formalization {
+        &__items {
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-left: 0;
+        }
+        &__card {
+            flex: 0 0 50%;
+        }
+        &__icon {
+            max-width: 70px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .formalization {
+        &__card {
+            flex: 0 0 100%;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .formalization {
+        &__title {
+            max-width: 248px;
+            text-align: left;
+        }
+    } 
+}
+
+@media (max-width: 370px) {
+.formalization {
+    &__content {
+        padding: 15px 12px 32px;
+    }
+}
+}
