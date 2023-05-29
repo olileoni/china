@@ -12,18 +12,21 @@
         }
     }
     &__title {
+        font-family: $titles-font;
+        font-size: 30px;
         text-align: left;
         padding-top: 20px;
         padding-left: calc(22px + (31 - 22) * ((100vw - 430px) / (1440 - 430)));
         margin-bottom: 5px;
         &_small {
             font-family: $titles-font;
-            font-weight: 0;
             font-size: 30px;
+            font-weight: 700;
             padding-left: calc(23px + (60 - 23) * ((100vw - 430px) / (1440 - 430)));
             padding-right: 33px;
             padding-top: 22px;
             margin-bottom: 10px;
+            text-align: right;
         }
     }
     &__subtitle {
@@ -46,11 +49,16 @@
     }
 }
 
+.modal.open {
+    visibility: visible;
+    opacity: 1;
+}
+
 @media (max-width: 620px) {
     .price {
         &__title {
             &_small {
-                text-align-last: left;
+                text-align: left;
             }
         }
         &__subtitle {

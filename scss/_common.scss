@@ -73,13 +73,13 @@ img {
 
 @media (max-width: 422px) {
   .big-title {
-    font-size: 24px;
+    font-size: 30px;
   }
 }
 
 .title-small {
   text-align: center;
-  font-size: calc(30px + 4 * ((100vw - 430px) / (1440 - 430)));
+  font-size: calc(24px + 4 * ((100vw - 430px) / (1440 - 430)));
   line-height:calc(36px + 5 * ((100vw - 430px) / (1440 - 430)));
   font-weight: 700;
   font-family: $titles-font;

@@ -43,7 +43,6 @@
         font-size: calc(17px + 1 * ((100vw - 430px) / (1440 - 430)));
         line-height: calc(25px + 4 * ((100vw - 430px) / (1440 - 430)));
         margin: 0;
-        letter-spacing: 2px;
         &_first {
             max-width: 600px;
             padding-left: calc(22px + (42 - 22) * ((100vw - 430px) / (1440 - 430)));
@@ -82,14 +81,6 @@
         padding: 0;
     }
 }
-
-// @media (max-width: 1030px) {
-//     .translation {
-//         &__image {
-//             right: 0;
-//         }
-//     }
-// }
 
 @media (max-width: 450px) {
     .translation {

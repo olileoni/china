@@ -101,8 +101,9 @@
 
 .form {
     margin-top: 30px;
-    margin-bottom: 30px;
-    width: calc(300px + (531 - 300) * ((100vw - 430px) / (1440 - 430)));
+    margin-bottom: calc(20px + (30 - 20) * ((100vw - 430px) / (1440 - 430)));
+    margin-left: calc(20px + (30 - 20) * ((100vw - 430px) / (1440 - 430)));
+    margin-right: calc(20px + (30 - 20) * ((100vw - 430px) / (1440 - 430)));
     &__content {
         background: url('../assets/img/form-img.png');
         background-repeat: no-repeat;
@@ -110,11 +111,12 @@
         }
         &__title {
             max-width: 370px;
-            font-size: 40px;
-            line-height: 48px;
+            font-size: calc(28px + 12 * ((100vw - 430px) / (1440 - 430)));
+            line-height: calc(36px + 12 * ((100vw - 430px) / (1440 - 430)));
              color: #ffffff;
              padding-top: 10px;
-             padding-left: 42px;
+             padding-left: calc(22px + (42 - 22) * ((100vw - 430px) / (1440 - 430)));
+             padding-right: calc(22px + (42 - 22) * ((100vw - 430px) / (1440 - 430)));
              margin-bottom: 7px;
              font-family: $titles-font;
              font-weight: 700;
@@ -122,9 +124,9 @@
         &__text {
             max-width: 250px;
             color: #ffffff;
-            font-size: 24px;
-            line-height: 30px;
-            padding-left: 42px;
+            font-size: calc(18px + 4 * ((100vw - 430px) / (1440 - 430)));
+            line-height: calc(20px + 10 * ((100vw - 430px) / (1440 - 430)));
+            padding-left: calc(22px + (42 - 22) * ((100vw - 430px) / (1440 - 430)));
             font-family: $titles-font;
             font-weight: 700;
             margin: 0;
@@ -134,38 +136,43 @@
             background-color: #ffffff;
             display: flex;
             flex-direction: column;
+            padding: 0 15px;
         }
         &__input {
             border-bottom: 1px solid #6F707C;
-            width: calc(280px + (422 - 280) * ((100vw - 430px) / (1440 - 430)));
+            width: calc(250px + (422 - 250) * ((100vw - 430px) / (1440 - 430)));
             margin: 0 auto;
-            padding-top: 63px;
+            padding-top: calc(32px + (43 - 32) * ((100vw - 430px) / (1440 - 430)));;
             font-size: 14px;
         }
         &__subtitle {
             font-size: 20px;
             color: $form-title-color;
             font-weight: 400;
-            margin-top: 60px;
-            padding-left: 52px;
-            margin-bottom: 40px;
+            padding-left: calc(20px + (30 - 20) * ((100vw - 430px) / (1440 - 430)));
+            margin-top: calc(30px + (52 - 30) * ((100vw - 430px) / (1440 - 430)));
+            margin-bottom: calc(15px + (30 - 15) * ((100vw - 430px) / (1440 - 430)));
         }
         &__button {
-            margin-top: 40px;
+            margin-top: calc(15px + (30 - 15) * ((100vw - 430px) / (1440 - 430)));
             max-width: 230px;
-            margin-left: 54px;
+            margin-left: calc(25px + (54 - 25) * ((100vw - 430px) / (1440 - 430)));
             padding: 12px 20px;
-            margin-bottom: 60px;
+            margin-bottom: calc(20px + (60 - 20) * ((100vw - 430px) / (1440 - 430)));
         }
 }
 
 .radio {
     &__container {
     display: flex;
-    padding-left: 52px;
+    align-items: center;
+    padding-left: calc(32px + (52 - 32) * ((100vw - 430px) / (1440 - 430)));
 }
 &__text {
+    font-size: calc(16px + 4 * ((100vw - 430px) / (1440 - 430)));
     margin-left: 12px;
+    margin-bottom: 7px;
+    margin-top: 7px;
     color: $form-title-color;
 }
 }
@@ -207,25 +214,6 @@
                 padding-top: 16px;
                 padding-bottom: 16px;
             }
-        }
-    }
-}
-
-@media (max-width: 490px) {
-    .form {
-        &__title {
-            max-width: 280px;
-            line-height: 42px;
-             padding-top: 30px;
-             padding-left: 22px;
-        }
-        &__text {
-            padding-left: 22px;
-            margin: 0;
-            padding-bottom: 30px;
-        }
-        &__body {
-            margin-top: -30px;
         }
     }
 }
@@ -287,24 +275,5 @@
         &__buttons {
             flex-direction: column;
         }
-    }
-    .form {
-        &__subtitle {
-            margin-top: 40px;
-            padding-left: 32px;
-        }
-        &__button {
-            margin-top: 30px;
-            max-width: 130px;
-            margin-left: 22px;
-            padding: 12px 5px;
-            margin-bottom: 50px;
-        }
-    }
-
-.radio {
-    &__container {
-    padding-left: 22px;
-}
     }
 }
