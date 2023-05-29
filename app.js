@@ -1,18 +1,9 @@
 const btn = document.querySelector('.header__button_first')
-const btnSecond = document.querySelector('.banner__button')
 const btnThird = document.querySelector('.help__order')
 const btnFourth = document.querySelector('.header__button_translate')
 const modal = document.querySelector('.modal')
 
-btn.addEventListener('click', () => {
-    modal.classList.add('open')
-})
-
-btnThird.addEventListener('click', () => {
-    modal.classList.add('open')
-})
-
-btnSecond.addEventListener('click', () => {
+btnFourth.addEventListener('click', () => {
     modal.classList.add('open')
 })
 
@@ -35,5 +26,10 @@ modal.addEventListener('click', event => {
 });
 
 
+btn.addEventListener('click', () => {
+    modal.classList.add('open')
+})
 
-
+btnThird.addEventListener('click', () => {
+    modal.classList.add('open')
+})
