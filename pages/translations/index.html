@@ -36,31 +36,33 @@
             </div>
 
             <div class="modal">
-                <form action="#" class="form">
+                <form action="#" class="form" id="form" autocomplete="off">
                     <div class="form__content">
                         <h2 class="form__title">Китайские визы и переводы </h2>
                         <p class="form__text">Заполните форму 
                             и мы свяжемся с вами в ближайшее время</p>
                     </div>
                     <div class="form__body">
-                    <input type="text" class="form__input" placeholder="Ваше имя">
-                    <input type="tel" class="form__input" placeholder="Телефон">
-                    <input type="email" class="form__input" placeholder="E-mail">
+                    <input type="text" id="name" name="name" class="form__input" placeholder="Ваше имя">
+                    <input type="tel" id="tel" name="name" class="form__input" placeholder="Телефон">
+                    <input type="email" id="email" name="email" class="form__input" placeholder="E-mail">
                     <h3 class="form__subtitle">Как с вами связаться?</h3>
-                    <div class="radio__container">
-                        <input type="radio">
-                        <p class="radio__text">по электронной почте</p>
-                    </div>
-                    <div class="radio__container">
-                        <input type="radio">
-                        <p class="radio__text">телефонным звонком</p>
-                    </div>
-                    <div class="radio__container">
-                        <input type="radio">
-                        <p class="radio__text">по WhatsApp</p>
-                    </div>
-                    <button class="form__button button">связаться со мной</button>
-                </div>
+
+                        <div class="options__item">
+                            <input type="checkbox" checked id="byEmail" name="connection" value="mail" class="options__input">
+                            <label for="byEmail" class="options__label"><span>по электронной почте</span></label>
+                        </div>
+
+                        <div class="options__item">
+                            <input type="checkbox" id="byPhone" name="connection" value="phone" class="options__input">
+                            <label for="byPhone" class="options__label"><span>телефонным звонком</span></label>
+                        </div>
+
+                        <div class="options__item">
+                            <input type="checkbox" id="byWhatsapp" name="connection" value="whatsapp" class="options__input">
+                            <label for="byWhatsapp" class="options__label"><span>по WhatsApp</span></label>
+                        </div>
+                    <button type="submit" class="form__button button">связаться со мной</button>
                 </form>
             </div>
 
@@ -298,7 +300,7 @@
             <div class="container">
                     <div class="footer__items">
                             <div class="footer__container footer__container_first">
-                            <a href="index.html" class="footer__logo">
+                            <a href="../main/index.html" class="footer__logo">
                                 <div class="footer__logo_pic">
                                     <img src="../../assets/svg/logo.svg" alt="Моя виза">
                                 </div>
@@ -311,10 +313,10 @@
                             <div class="footer__wraper">
                             <a href="tel:89922162917" class="footer__contacts">+79922162917</a>
                             <div class="footer__socials">
-                                <a href="https://web.whatsapp.com" target="_blank" class="footer__socials_link">
+                                <a href="https://wa.me/79922162917" target="_blank" class="footer__socials_link">
                                     <img src="../../assets/svg/WhatsApp.svg" alt="WhatsApp" class="footer__socials_img">
                                 </a>
-                                <a href="https://web.telegram.org/" target="_blank" class="footer__socials_link">
+                                <a href="https://t.me/my_visa_online" target="_blank" class="footer__socials_link">
                                     <img src="../../assets/svg/Telegram.svg" alt="Telegram" class="footer__socials_img">
                                 </a>
                                 <a href="tel:89922162917" class="footer__socials_link">
@@ -357,7 +359,7 @@
         </div>
         </footer>
     </div>
-    <script src="../../app.js"></script>
-    <script src="../../index.js"></script>
+    <script src="../../js/app.js"></script>
+    <script src="../../js/index.js"></script>
 </body>
 </html>

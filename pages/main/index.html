@@ -36,16 +36,16 @@
             </div>
 
             <div class="modal">
-                <form action="#" class="form" id="form" autocomplete="off">
+                <form action="#" class="form" id="form" method="POST" autocomplete="off" enctype="multipart/form-data">
                     <div class="form__content">
                         <h2 class="form__title">Китайские визы и переводы </h2>
                         <p class="form__text">Заполните форму 
                             и мы свяжемся с вами в ближайшее время</p>
                     </div>
                     <div class="form__body">
-                    <input type="text" id="name" name="name" class="form__input" placeholder="Ваше имя">
-                    <input type="tel" id="tel" name="name" class="form__input" placeholder="Телефон">
-                    <input type="email" id="email" name="email" class="form__input" placeholder="E-mail">
+                    <input type="text" id="name" name="name" class="form__input" data-validate-field ="name" placeholder="Ваше имя">
+                    <input type="tel" id="tel" name="tel" class="form__input" data-validate-field = "tel" placeholder="Телефон">
+                    <input type="email" id="email" name="email" class="form__input" data-validate-field = "email" placeholder="E-mail">
                     <h3 class="form__subtitle">Как с вами связаться?</h3>
 
                         <div class="options__item">
@@ -331,10 +331,10 @@
                             <div class="footer__wraper">
                             <a href="tel:89922162917" class="footer__contacts">+79922162917</a>
                             <div class="footer__socials">
-                                <a href="https://web.whatsapp.com" class="footer__socials_link" target="_blank">
+                                <a href="https://wa.me/79922162917" class="footer__socials_link" target="_blank">
                                     <img src="../../assets/svg/WhatsApp.svg" alt="WhatsApp" class="footer__socials_img">
                                 </a>
-                                <a href="https://web.telegram.org/" class="footer__socials_link" target="_blank">
+                                <a href="https://t.me/my_visa_online" class="footer__socials_link" target="_blank">
                                     <img src="../../assets/svg/Telegram.svg" alt="Telegram" class="footer__socials_img">
                                 </a>
                                 <a href="tel:89922162917" class="footer__socials_link">
@@ -379,7 +379,7 @@
     </div>
     <script src="../../js/inputmask.min.js"></script>
     <script src="../../js/just-validate.min.js"></script>
-    <script src = '../../js/main.js'></script>
-    <script src="../../index.js"></script>
+    <script src="../../js/index.js"></script>
+    <script src="../../js/script.js"></script>
 </body>
 </html>
