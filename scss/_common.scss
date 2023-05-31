@@ -66,7 +66,7 @@ img {
 
 .big-title {
   font-family: $titles-font;
-  font-size: calc(40px + 4 * ((100vw - 430px) / (1440 - 430)));
+  font-size: calc(40px + 4 * ((100vw - 320px) / (1920 - 320)));
   text-align: center;
   font-weight: 700;
 }
@@ -79,8 +79,8 @@ img {
 
 .title-small {
   text-align: center;
-  font-size: calc(24px + 4 * ((100vw - 430px) / (1440 - 430)));
-  line-height:calc(36px + 5 * ((100vw - 430px) / (1440 - 430)));
+  font-size: calc(24px + 4 * ((100vw - 320px) / (1920 - 320)));
+  line-height:calc(36px + 5 * ((100vw - 320px) / (1920 - 320)));
   font-weight: 700;
   font-family: $titles-font;
 }
@@ -89,7 +89,7 @@ img {
   background-color: $accent-color;
   color: #ffffff;
   font-family: $titles-font;
-  font-size: calc(17px + 1 * ((100vw - 430px) / (1440 - 430)));
+  font-size: calc(17px + 1 * ((100vw - 320px) / (1920 - 320)));
   text-transform: uppercase;
   border-radius: 57px;
 }

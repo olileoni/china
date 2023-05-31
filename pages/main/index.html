@@ -36,7 +36,7 @@
             </div>
 
             <div class="modal">
-                <form class="form" id="form" autocomplete="off">
+                <form action="#" class="form" id="form" autocomplete="off">
                     <div class="form__content">
                         <h2 class="form__title">Китайские визы и переводы </h2>
                         <p class="form__text">Заполните форму 
@@ -47,20 +47,22 @@
                     <input type="tel" id="tel" name="name" class="form__input" placeholder="Телефон">
                     <input type="email" id="email" name="email" class="form__input" placeholder="E-mail">
                     <h3 class="form__subtitle">Как с вами связаться?</h3>
-                    <div class="radio__container">
-                        <input type="radio">
-                        <p class="radio__text">по электронной почте</p>
-                    </div>
-                    <div class="radio__container">
-                        <input type="radio">
-                        <p class="radio__text">телефонным звонком</p>
-                    </div>
-                    <div class="radio__container">
-                        <input type="radio">
-                        <p class="radio__text">по WhatsApp</p>
-                    </div>
+
+                        <div class="options__item">
+                            <input type="checkbox" checked id="byEmail" name="connection" value="mail" class="options__input">
+                            <label for="byEmail" class="options__label"><span>по электронной почте</span></label>
+                        </div>
+
+                        <div class="options__item">
+                            <input type="checkbox" id="byPhone" name="connection" value="phone" class="options__input">
+                            <label for="byPhone" class="options__label"><span>телефонным звонком</span></label>
+                        </div>
+
+                        <div class="options__item">
+                            <input type="checkbox" id="byWhatsapp" name="connection" value="whatsapp" class="options__input">
+                            <label for="byWhatsapp" class="options__label"><span>по WhatsApp</span></label>
+                        </div>
                     <button type="submit" class="form__button button">связаться со мной</button>
-                </div>
                 </form>
             </div>
 

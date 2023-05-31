@@ -5,27 +5,27 @@
     background-size: cover;
     padding-left: 12px;
     &__container {
-        padding-left: calc(0px + (90 - 0) * ((100vw - 430px) / (1440 - 430)));
+        padding-left: calc(0px + (90 - 0) * ((100vw - 320px) / (1920 - 320)));
     }
     &__title {
-        max-width: calc(260px + (618 - 260) * ((100vw - 430px) / (1440 - 430)));
+        max-width: calc(260px + (618 - 260) * ((100vw - 320px) / (1920 - 320)));
         font-family: $titles-font;
-        font-size: calc(40px + 15 * ((100vw - 430px) / (1440 - 430)));
-        line-height: calc(48px + 26 * ((100vw - 430px) / (1440 - 430)));
-        padding-top:calc(235px + (295 - 235) * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(40px + 15 * ((100vw - 320px) / (1920 - 320)));
+        line-height: calc(48px + 26 * ((100vw - 320px) / (1920 - 320)));
+        padding-top:calc(235px + (295 - 235) * ((100vw - 320px) / (1920 - 320)));
         margin-bottom: 0;
     }
     &__text {
-        max-width: calc(250px + (590 - 250) * ((100vw - 430px) / (1440 - 430)));
-        font-size: calc(17px + 3 * ((100vw - 430px) / (1440 - 430)));
-        line-height: calc(25px + 4 * ((100vw - 430px) / (1440 - 430)));
+        max-width: calc(250px + (590 - 250) * ((100vw - 320px) / (1920 - 320)));
+        font-size: calc(17px + 3 * ((100vw - 320px) / (1920 - 320)));
+        line-height: calc(25px + 4 * ((100vw - 320px) / (1920 - 320)));
         margin-top: 0;
         margin-bottom: 33px;
         letter-spacing: 1px;
     }
     &__button {
         padding: 12px 44px;
-        margin-bottom: calc(100px + (217 - 100) * ((100vw - 430px) / (1440 - 430)));
+        margin-bottom: calc(100px + (217 - 100) * ((100vw - 320px) / (1920 - 320)));
     }
 }
 

@@ -1,6 +1,6 @@
 .header {
-    padding-top: calc(24px + (38 - 24) * ((100vw - 430px) / (1440 - 430)));
-    padding-bottom: calc(30px + (43 - 30) * ((100vw - 430px) / (1440 - 430)));
+    padding-top: calc(24px + (38 - 24) * ((100vw - 320px) / (1920 - 320)));
+    padding-bottom: calc(30px + (43 - 30) * ((100vw - 320px) / (1920 - 320)));
     &__container {
         display: flex;
         justify-content: space-between;
@@ -11,17 +11,17 @@
         &_second {
             display: flex;
             align-items: center;
-            gap:  calc(20px + (50 - 20) * ((100vw - 430px) / (1440 - 430)));
+            gap:  calc(20px + (50 - 20) * ((100vw - 320px) / (1920 - 320)));
         }
     }
     &__logo {
         display: flex;
         align-items: center;
         padding-left: 9px;
-        gap: calc(10px + (16 - 10) * ((100vw - 430px) / (1440 - 430)));
+        gap: calc(10px + (16 - 10) * ((100vw - 320px) / (1920 - 320)));
        &_pic {
-        width: calc(61px + (85 - 61) * ((100vw - 430px) / (1440 - 430)));
-        height: calc(44px + (61 - 44) * ((100vw - 430px) / (1440 - 430)));
+        width: calc(61px + (85 - 61) * ((100vw - 320px) / (1920 - 320)));
+        height: calc(44px + (61 - 44) * ((100vw - 320px) / (1920 - 320)));
        }
     }
     &__link {
@@ -32,15 +32,15 @@
         }
         &_title {
             color: $light-blue-color;
-            font-size: calc(19px + 6 * ((100vw - 430px) / (1440 - 430)));
+            font-size: calc(19px + 6 * ((100vw - 320px) / (1920 - 320)));
             font-family: 'Roboto';
             font-weight: 900;
             margin: 0;
-            margin-bottom: calc(2px + (8 - 2) * ((100vw - 430px) / (1440 - 430)));
+            margin-bottom: calc(2px + (8 - 2) * ((100vw - 320px) / (1920 - 320)));
             text-transform: uppercase;
         }
         &_text {
-            font-size: calc(9px + 3 * ((100vw - 430px) / (1440 - 430)));
+            font-size: calc(9px + 3 * ((100vw - 320px) / (1920 - 320)));
             font-family: 'Roboto';
             font-weight: 500;
             margin: 0;
@@ -52,13 +52,13 @@
         color: $light-blue-color;
         font-family: $titles-font;
         padding-left: 9px;
-        font-size: calc(24px + 18 * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(24px + 18 * ((100vw - 320px) / (1920 - 320)));
     }
     &__title {
-        width: calc(324px + (480 - 324) * ((100vw - 430px) / (1440 - 430)));
+        width: calc(324px + (480 - 324) * ((100vw - 320px) / (1920 - 320)));
         font-family: $titles-font;
-        font-size: calc(30px + 14 * ((100vw - 430px) / (1440 - 430)));
-        line-height: calc(36px + 22 * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(30px + 14 * ((100vw - 320px) / (1920 - 320)));
+        line-height: calc(36px + 22 * ((100vw - 320px) / (1920 - 320)));
         text-align: right;
     }
     &__buttons {
@@ -69,13 +69,13 @@
         &_first {
             padding-top: 12px;
             padding-bottom: 12px;
-            padding-right: calc(9px + (43 - 9) * ((100vw - 430px) / (1440 - 430)));
-            padding-left: calc(12px + (43 - 12) * ((100vw - 430px) / (1440 - 430)));
+            padding-right: calc(9px + (43 - 9) * ((100vw - 320px) / (1920 - 320)));
+            padding-left: calc(12px + (43 - 12) * ((100vw - 320px) / (1920 - 320)));
             margin-bottom: 10px;
         }
         &_second {
-            padding-right: calc(24px + (29 - 24) * ((100vw - 430px) / (1440 - 430)));
-            padding-left: calc(24px + (29 - 24) * ((100vw - 430px) / (1440 - 430)));
+            padding-right: calc(24px + (29 - 24) * ((100vw - 320px) / (1920 - 320)));
+            padding-left: calc(24px + (29 - 24) * ((100vw - 320px) / (1920 - 320)));
             padding-top: 13px;
             padding-bottom: 13px;
         }
@@ -101,22 +101,23 @@
 
 .form {
     margin-top: 30px;
-    margin-bottom: calc(20px + (30 - 20) * ((100vw - 430px) / (1440 - 430)));
-    margin-left: calc(20px + (30 - 20) * ((100vw - 430px) / (1440 - 430)));
-    margin-right: calc(20px + (30 - 20) * ((100vw - 430px) / (1440 - 430)));
+    margin-bottom: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+    margin-left: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+    margin-right: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
     &__content {
         background: url('../assets/img/form-img.png');
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
         }
         &__title {
             max-width: 370px;
-            font-size: calc(28px + 12 * ((100vw - 430px) / (1440 - 430)));
-            line-height: calc(36px + 12 * ((100vw - 430px) / (1440 - 430)));
+            font-size: calc(28px + 12 * ((100vw - 320px) / (1920 - 320)));
+            line-height: calc(36px + 12 * ((100vw - 320px) / (1920 - 320)));
              color: #ffffff;
              padding-top: 10px;
-             padding-left: calc(22px + (42 - 22) * ((100vw - 430px) / (1440 - 430)));
-             padding-right: calc(22px + (42 - 22) * ((100vw - 430px) / (1440 - 430)));
+             padding-left: calc(22px + (42 - 22) * ((100vw - 320px) / (1920 - 320)));
+             padding-right: calc(22px + (42 - 22) * ((100vw - 320px) / (1920 - 320)));
              margin-bottom: 7px;
              font-family: $titles-font;
              font-weight: 700;
@@ -124,9 +125,9 @@
         &__text {
             max-width: 250px;
             color: #ffffff;
-            font-size: calc(18px + 4 * ((100vw - 430px) / (1440 - 430)));
-            line-height: calc(20px + 10 * ((100vw - 430px) / (1440 - 430)));
-            padding-left: calc(22px + (42 - 22) * ((100vw - 430px) / (1440 - 430)));
+            font-size: calc(18px + 4 * ((100vw - 320px) / (1920 - 320)));
+            line-height: calc(20px + 10 * ((100vw - 320px) / (1920 - 320)));
+            padding-left: calc(22px + (42 - 22) * ((100vw - 320px) / (1920 - 320)));
             font-family: $titles-font;
             font-weight: 700;
             margin: 0;
@@ -140,9 +141,9 @@
         }
         &__input {
             border-bottom: 1px solid #6F707C;
-            width: calc(250px + (422 - 250) * ((100vw - 430px) / (1440 - 430)));
+            width: calc(250px + (422 - 250) * ((100vw - 320px) / (1920 - 320)));
             margin: 0 auto;
-            padding-top: calc(32px + (43 - 32) * ((100vw - 430px) / (1440 - 430)));;
+            padding-top: calc(32px + (43 - 32) * ((100vw - 320px) / (1920 - 320)));;
             font-size: 14px;
             &:focus {
                 border-bottom: 1px  solid $accent-color;
@@ -152,33 +153,68 @@
             font-size: 20px;
             color: $form-title-color;
             font-weight: 400;
-            padding-left: calc(20px + (30 - 20) * ((100vw - 430px) / (1440 - 430)));
-            margin-top: calc(30px + (52 - 30) * ((100vw - 430px) / (1440 - 430)));
-            margin-bottom: calc(15px + (30 - 15) * ((100vw - 430px) / (1440 - 430)));
+            padding-left: calc(20px + (30 - 20) * ((100vw - 320px) / (1920 - 320)));
+            margin-top: calc(25px + (40 - 25) * ((100vw - 320px) / (1920 - 320)));
+            margin-bottom: calc(15px + (25 - 15) * ((100vw - 320px) / (1920 - 320)));
         }
         &__button {
-            margin-top: calc(15px + (30 - 15) * ((100vw - 430px) / (1440 - 430)));
+            margin-top: calc(15px + (30 - 15) * ((100vw - 320px) / (1920 - 320)));
             max-width: 230px;
-            margin-left: calc(25px + (54 - 25) * ((100vw - 430px) / (1440 - 430)));
+            margin-left: calc(25px + (54 - 25) * ((100vw - 320px) / (1920 - 320)));
             padding: 12px 20px;
-            margin-bottom: calc(20px + (60 - 20) * ((100vw - 430px) / (1440 - 430)));
+            margin-bottom: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
         }
 }
 
-.radio {
-    &__container {
-    display: flex;
-    align-items: center;
-    padding-left: calc(32px + (52 - 32) * ((100vw - 430px) / (1440 - 430)));
+// .options {
+//     &__container {
+//     display: flex;
+//     align-items: center;
+//     padding-left: calc(32px + (52 - 32) * ((100vw - 320px) / (1920 - 320)));
+// }
+.options {
+    &__label {
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        font-size: 14px;
+        margin-left: 12px;
+        margin-bottom: 7px;
+        margin-top: 7px;
+        color: $form-title-color;
+        position: relative;
+        cursor: pointer;
+        &::before {
+            content: '';
+            flex: 0 0 24px;
+            align-self: flex-start;
+            height: 24px;
+            border: 1px solid $form-title-color;
+            border-radius: 8px;
+            margin: 0 10px 0 0;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 18px;
+            height: 18px;
+            border-radius: 5px;
+            background-color: $accent-color;
+            transform: scale(0);
+            transition: transform 0.3s ease 0s;
+        }
+    }
+    &__input {
+        display: none;
+    }
+
+    &__input:checked + .options__label::after {
+        transform: scale(1);
+    }
 }
-&__text {
-    font-size: calc(16px + 4 * ((100vw - 430px) / (1440 - 430)));
-    margin-left: 12px;
-    margin-bottom: 7px;
-    margin-top: 7px;
-    color: $form-title-color;
-}
-}
+
 
 .modal.open {
     visibility: visible;
@@ -192,7 +228,7 @@
             &_first {
                 flex-direction: row;
                 justify-content: space-between;
-                margin-bottom: calc(20px + (46 - 20) * ((100vw - 320px) / (1440 - 430)));
+                margin-bottom: calc(20px + (46 - 20) * ((100vw - 320px) / (1920 - 320)));
             }
             &_second {
                 flex-direction: column;
@@ -260,7 +296,7 @@
         &__link {
             &_title {
                 font-size: 16px;
-                margin-bottom: calc(2px + (8 - 2) * ((100vw - 430px) / (1440 - 430)));
+                margin-bottom: calc(2px + (8 - 2) * ((100vw - 320px) / (1920 - 320)));
             }
             &_text {
                 font-size: 7px;

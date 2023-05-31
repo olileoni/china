@@ -3,17 +3,17 @@
     &__title {
         max-width: 697px;
         margin: 0 auto;
-        margin-bottom: calc(40px + (123 - 40) * ((100vw - 430px) / (1440 - 430)));
+        margin-bottom: calc(40px + (123 - 40) * ((100vw - 320px) / (1920 - 320)));
     }
     &__container {
         display: flex;
         gap: 40px;
     }
     &__list {
-        padding-left: calc(40px + (290 - 40) * ((100vw - 430px) / (1440 - 430)));
+        padding-left: calc(40px + (290 - 40) * ((100vw - 320px) / (1920 - 320)));
     }
     &__item {
-        font-size: calc(17px +1 * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(17px +1 * ((100vw - 320px) / (1920 - 320)));
         margin-bottom: 29px;
         position: relative;
         padding-left: 55px;
@@ -31,8 +31,8 @@
         margin-bottom: 0;
     }
     &__image {
-        width: calc(176px + (270 - 176) * ((100vw - 430px) / (1440 - 430)));
-        height: calc(176px + (270 - 176) * ((100vw - 430px) / (1440 - 430)));
+        width: calc(176px + (270 - 176) * ((100vw - 320px) / (1920 - 320)));
+        height: calc(176px + (270 - 176) * ((100vw - 320px) / (1920 - 320)));
     }
 }
 

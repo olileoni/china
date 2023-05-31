@@ -1,5 +1,5 @@
 .translation-questions {
-    padding-top: calc(88px + (122 - 88) * ((100vw - 430px) / (1440 - 430)));
+    padding-top: calc(88px + (122 - 88) * ((100vw - 320px) / (1920 - 320)));
     &__container {
         max-width: 1073px;
         margin: 0 auto;
@@ -19,7 +19,7 @@
     &__content {
         &_odd {
             border-radius: 40px 0 0 40px;
-            padding-left: calc(32px + (68 - 32) * ((100vw - 430px) / (1440 - 430)));
+            padding-left: calc(32px + (68 - 32) * ((100vw - 320px) / (1920 - 320)));
         }
         &_even {
             padding-right: 40px;
@@ -32,8 +32,8 @@
             line-height: 36px;
         }
         &_text {
-            font-size: calc(17px + 3 * ((100vw - 430px) / (1440 - 430)));
-            line-height: calc(25px + 4 * ((100vw - 430px) / (1440 - 430)));
+            font-size: calc(17px + 3 * ((100vw - 320px) / (1920 - 320)));
+            line-height: calc(25px + 4 * ((100vw - 320px) / (1920 - 320)));
             margin-bottom: 0;
         }
     }
@@ -45,7 +45,7 @@
 }
 
 .translation-content_title_first {
-    width: calc(326px + (300 - 326) * ((100vw - 430px) / (1440 - 430)));
+    width: calc(326px + (300 - 326) * ((100vw - 320px) / (1920 - 320)));
     padding-top: 15px;
 }
 .translation-content_title_second  {
@@ -68,21 +68,21 @@
 }
 
 .translation-content_text_first {
-    width: calc(307px + (334 - 307) * ((100vw - 430px) / (1440 - 430)));
+    width: calc(307px + (334 - 307) * ((100vw - 320px) / (1920 - 320)));
     margin-top: 16px;
 }
 .translation-content_text_second {
-    max-width: calc(320px + (390 - 320) * ((100vw - 430px) / (1440 - 430)));
+    max-width: calc(320px + (390 - 320) * ((100vw - 320px) / (1920 - 320)));
     margin-left: auto;
     margin-right: 28px;
     text-align: right;
 }
 .translation-content_text_third {
-    max-width: calc(324px + (403 - 324) * ((100vw - 430px) / (1440 - 430)));
+    max-width: calc(324px + (403 - 324) * ((100vw - 320px) / (1920 - 320)));
     padding-left: 20px;
 }
 .translation-content_text_fourth {
-    max-width: calc(308px + (330 - 308) * ((100vw - 430px) / (1440 - 430)));
+    max-width: calc(308px + (330 - 308) * ((100vw - 320px) / (1920 - 320)));
     margin-right: 15px;
     margin-left: auto;
     text-align: right;
@@ -91,7 +91,7 @@
 .strong-title {
     font-family: $titles-font;
     font-weight: 700;
-    font-size:calc(30px + 14 * ((100vw - 430px) / (1440 - 430))) ;
+    font-size:calc(30px + 14 * ((100vw - 320px) / (1920 - 320))) ;
 }
 
 .translation-questions__image img {
@@ -124,7 +124,7 @@
             }
             &_even {
                 padding-right: 0;
-                padding-left: calc(32px + (68 - 32) * ((100vw - 430px) / (1440 - 430)));
+                padding-left: calc(32px + (68 - 32) * ((100vw - 320px) / (1920 - 320)));
             }
             &_text {
                 margin-bottom: 20px;

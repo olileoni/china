@@ -1,16 +1,16 @@
 .order {
-    padding-top: calc(92px + (120 - 92) * ((100vw - 430px) / (1440 - 430)));
+    padding-top: calc(92px + (120 - 92) * ((100vw - 320px) / (1920 - 320)));
     padding-left: 50px;
     &__title {
         max-width: 396px;
         margin-right: auto;
         margin-left: auto;
-        line-height: calc(48px + 11 * ((100vw - 430px) / (1440 - 430)));
-        margin-bottom: calc(65px + (70 - 65) * ((100vw - 430px) / (1440 - 430)));
+        line-height: calc(48px + 11 * ((100vw - 320px) / (1920 - 320)));
+        margin-bottom: calc(65px + (70 - 65) * ((100vw - 320px) / (1920 - 320)));
     }
     &__items {
         display: flex;
-        gap: calc(29px + (43 - 29) * ((100vw - 430px) / (1440 - 430)));
+        gap: calc(29px + (43 - 29) * ((100vw - 320px) / (1920 - 320)));
     }
     &__card {
         flex: 0 0 33.333%;
@@ -30,12 +30,12 @@
     }
     &__header {
         text-transform: lowercase;
-        font-size: calc(30px + 4 * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(30px + 4 * ((100vw - 320px) / (1920 - 320)));
         font-family: $titles-font;
         margin-bottom: 10px;
     }
     &__subtitle {
-        font-size: calc(17px + 3 * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(17px + 3 * ((100vw - 320px) / (1920 - 320)));
     }
 }
 

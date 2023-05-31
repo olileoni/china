@@ -19,7 +19,7 @@
             font-family: $titles-font;
             color: #ffffff;
             font-weight: 700;
-            font-size: calc(150px + 50 * ((100vw - 430px) / (1440 - 430)));
+            font-size: calc(150px + 50 * ((100vw - 320px) / (1920 - 320)));
             text-align: right;
             margin: 0;
             margin-left: auto;
@@ -29,8 +29,8 @@
     }
     &__text {
         max-width: 230px;
-        font-size: calc(17px + 1 * ((100vw - 430px) / (1440 - 430)));
-        line-height: calc(25px + 1 * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(17px + 1 * ((100vw - 320px) / (1920 - 320)));
+        line-height: calc(25px + 1 * ((100vw - 320px) / (1920 - 320)));
         color: #ffffff;
         text-align: left;
         margin: 0;
@@ -46,7 +46,7 @@
             font-family: $titles-font;
             text-transform: lowercase;
             color: #ffffff;
-            font-size: calc(30px + 4 * ((100vw - 430px) / (1440 - 430)));
+            font-size: calc(30px + 4 * ((100vw - 320px) / (1920 - 320)));
             margin-left: 33px;
         }
     }
@@ -75,7 +75,7 @@
             padding: 0;
         }
         &__item {
-            width: calc(378px + (700 - 378) * ((100vw - 430px) / (1440 - 430)));
+            width: calc(378px + (700 - 378) * ((100vw - 320px) / (1920 - 320)));
             height: 176px;
         }
         &__text {
@@ -99,7 +99,7 @@
         }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 320px) {
     .help {
         .img-first {
             margin-left: 75px;

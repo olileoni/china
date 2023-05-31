@@ -1,11 +1,11 @@
 .formalization {
-    padding-top: calc(92px + (110 - 92) * ((100vw - 430px) / (1440 - 430)));
+    padding-top: calc(92px + (110 - 92) * ((100vw - 320px) / (1920 - 320)));
     &__title {
-        margin-bottom: calc(40px + (105 - 40) * ((100vw - 430px) / (1440 - 430)));
+        margin-bottom: calc(40px + (105 - 40) * ((100vw - 320px) / (1920 - 320)));
     }
     &__items {
         display: flex;
-        gap: calc(29px + (43 - 29) * ((100vw - 430px) / (1440 - 430)));
+        gap: calc(29px + (43 - 29) * ((100vw - 320px) / (1920 - 320)));
         padding-left: 8px;
     }
     &__card {
@@ -23,12 +23,12 @@
     }
     &__header {
         text-transform: lowercase;
-        font-size: calc(30px + 4 * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(30px + 4 * ((100vw - 320px) / (1920 - 320)));
         font-family: $titles-font;
         margin-bottom: 10px;
     }
     &__subtitle {
-        font-size: calc(17px + 3 * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(17px + 3 * ((100vw - 320px) / (1920 - 320)));
     }
 }
 

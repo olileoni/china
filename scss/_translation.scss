@@ -1,19 +1,19 @@
 .translation {
-    margin-top: calc(25px + (119 - 25) * ((100vw - 430px) / (1440 - 430)));
+    margin-top: calc(25px + (119 - 25) * ((100vw - 320px) / (1920 - 320)));
     position: relative;
     padding-left: 40px;
     &__items {
-        padding-top: calc(40px + (71 - 40) * ((100vw - 430px) / (1440 - 430)));
-        padding-bottom: calc(120px + (140 - 120) * ((100vw - 430px) / (1440 - 430)));
-        padding-right: calc(18px + (90 - 18) * ((100vw - 430px) / (1440 - 430)));
-        padding-left: calc(25px + (90 - 25) * ((100vw - 430px) / (1440 - 430)));
+        padding-top: calc(40px + (71 - 40) * ((100vw - 320px) / (1920 - 320)));
+        padding-bottom: calc(120px + (140 - 120) * ((100vw - 320px) / (1920 - 320)));
+        padding-right: calc(18px + (90 - 18) * ((100vw - 320px) / (1920 - 320)));
+        padding-left: calc(25px + (90 - 25) * ((100vw - 320px) / (1920 - 320)));
         background-color: $light-blue-color;
         border-radius: 40px;
     }
     &__item {
         background-color: #ffffff;
         border-radius: 40px;
-        margin-bottom: calc(25px + (33 - 25) * ((100vw - 430px) / (1440 - 430)));
+        margin-bottom: calc(25px + (33 - 25) * ((100vw - 320px) / (1920 - 320)));
         &_third {
             max-width: 690px;
         }
@@ -21,46 +21,46 @@
     &__title {
         text-align: left;
         font-family: $titles-font;
-        font-size: calc(30px + 14 * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(30px + 14 * ((100vw - 320px) / (1920 - 320)));
         font-weight: 700;
-        line-height: calc(36px + 23 * ((100vw - 430px) / (1440 - 430)));
-        padding-left: calc(22px + (42 - 22) * ((100vw - 430px) / (1440 - 430)));
+        line-height: calc(36px + 23 * ((100vw - 320px) / (1920 - 320)));
+        padding-left: calc(22px + (42 - 22) * ((100vw - 320px) / (1920 - 320)));
         &_first {
-            padding-top: calc(20px + (40 - 20) * ((100vw - 430px) / (1440 - 430)));
+            padding-top: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
             margin-bottom: 5px;
         }
         &_second {
-            padding-top: calc(23px + (32 - 23) * ((100vw - 430px) / (1440 - 430)));
+            padding-top: calc(23px + (32 - 23) * ((100vw - 320px) / (1920 - 320)));
             margin-bottom: 8px;
         }
         &_third {
             max-width: 502px;
-            padding-top: calc(23px + (30 - 23) * ((100vw - 430px) / (1440 - 430)));
+            padding-top: calc(23px + (30 - 23) * ((100vw - 320px) / (1920 - 320)));
 
         }
     }
     &__text {
-        font-size: calc(17px + 1 * ((100vw - 430px) / (1440 - 430)));
-        line-height: calc(25px + 4 * ((100vw - 430px) / (1440 - 430)));
+        font-size: calc(17px + 1 * ((100vw - 320px) / (1920 - 320)));
+        line-height: calc(25px + 4 * ((100vw - 320px) / (1920 - 320)));
         margin: 0;
         &_first {
             max-width: 600px;
-            padding-left: calc(22px + (42 - 22) * ((100vw - 430px) / (1440 - 430)));
-            padding-bottom: calc(27px + (42 - 27) * ((100vw - 430px) / (1440 - 430)));
+            padding-left: calc(22px + (42 - 22) * ((100vw - 320px) / (1920 - 320)));
+            padding-bottom: calc(27px + (42 - 27) * ((100vw - 320px) / (1920 - 320)));
         }
         &_second {
             max-width: 1000px;
-            padding-left: calc(22px + (45 - 22) * ((100vw - 430px) / (1440 - 430)));
-            padding-bottom: calc(15px + (40 - 15) * ((100vw - 430px) / (1440 - 430)));
+            padding-left: calc(22px + (45 - 22) * ((100vw - 320px) / (1920 - 320)));
+            padding-bottom: calc(15px + (40 - 15) * ((100vw - 320px) / (1920 - 320)));
         }
         &_third {
             margin-right: 140px;
-            padding-left: calc(22px + (42 - 22) * ((100vw - 430px) / (1440 - 430)));
-            padding-bottom: calc(10px + (40 - 10) * ((100vw - 430px) / (1440 - 430)));
+            padding-left: calc(22px + (42 - 22) * ((100vw - 320px) / (1920 - 320)));
+            padding-bottom: calc(10px + (40 - 10) * ((100vw - 320px) / (1920 - 320)));
         }
     }
     &__image {
-        width: calc(288px + (510 - 288) * ((100vw - 430px) / (1440 - 430)));
+        width: calc(288px + (510 - 288) * ((100vw - 320px) / (1920 - 320)));
         position: absolute;
         bottom: -6px;
         right: 45px;

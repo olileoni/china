@@ -3,7 +3,7 @@
     padding-left: 50px;
     padding-bottom: 102px;
     &__title {
-        margin-bottom: calc(68px + (98 - 68) * ((100vw - 430px) / (1440 - 430)));
+        margin-bottom: calc(68px + (98 - 68) * ((100vw - 320px) / (1920 - 320)));
     }
     &__items {
         position: relative;
