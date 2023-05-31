@@ -144,6 +144,9 @@
             margin: 0 auto;
             padding-top: calc(32px + (43 - 32) * ((100vw - 430px) / (1440 - 430)));;
             font-size: 14px;
+            &:focus {
+                border-bottom: 1px  solid $accent-color;
+            }
         }
         &__subtitle {
             font-size: 20px;

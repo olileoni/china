@@ -86,12 +86,7 @@
         display: block;
         font-size: calc(14px + 4 * ((100vw - 430px) / (1440 - 430)));
         color: $accent-color;
-        &::after {
-            content: '';
-            border-bottom: 1px solid $accent-color;
-            width: 100%;
-            display: block;
-        }
+        border-bottom: 1px solid $accent-color;
     }
     &__down {
         background-color: $bg-color;

@@ -36,16 +36,16 @@
             </div>
 
             <div class="modal">
-                <form action="#" class="form">
+                <form class="form" id="form" autocomplete="off">
                     <div class="form__content">
                         <h2 class="form__title">Китайские визы и переводы </h2>
                         <p class="form__text">Заполните форму 
                             и мы свяжемся с вами в ближайшее время</p>
                     </div>
                     <div class="form__body">
-                    <input type="text" class="form__input" placeholder="Ваше имя">
-                    <input type="tel" class="form__input" placeholder="Телефон">
-                    <input type="email" class="form__input" placeholder="E-mail">
+                    <input type="text" id="name" name="name" class="form__input" placeholder="Ваше имя">
+                    <input type="tel" id="tel" name="name" class="form__input" placeholder="Телефон">
+                    <input type="email" id="email" name="email" class="form__input" placeholder="E-mail">
                     <h3 class="form__subtitle">Как с вами связаться?</h3>
                     <div class="radio__container">
                         <input type="radio">
@@ -59,7 +59,7 @@
                         <input type="radio">
                         <p class="radio__text">по WhatsApp</p>
                     </div>
-                    <button class="form__button button">связаться со мной</button>
+                    <button type="submit" class="form__button button">связаться со мной</button>
                 </div>
                 </form>
             </div>
@@ -348,7 +348,7 @@
                                 614007, г.Пермь,<br>
                                 Н. Островского ул.,<br>
                                 д. 60, оф. 200
-                            <a href="mailto:info@myviza.online" target="_blank" class="footer__mail">Написать на почту</a>
+                            <a href="mailto:info@myviza.online" target="_blank" class="footer__mail"> info@myviza.online</a>
                         </div>
 
                             <div class="footer__company">
@@ -365,16 +365,19 @@
             <div class="container">
                 <div class="footer__links">
                     <div class="footer__confidenciality">
-                <a href="">Политика конфиденциальности</a>
+                <a href="../Политика конф.docx">Политика конфиденциальности</a>
             </div>
             <div class="footer__offer">
-                <a href="">Договор оферты</a>
+                <a href="../Договор оферты.docx">Договор оферты</a>
             </div>
             </div>
             </div>
         </div>
         </footer>
     </div>
+    <script src="../../js/inputmask.min.js"></script>
+    <script src="../../js/just-validate.min.js"></script>
+    <script src = '../../js/main.js'></script>
     <script src="../../index.js"></script>
 </body>
 </html>
