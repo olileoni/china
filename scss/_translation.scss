@@ -63,7 +63,16 @@
         width: calc(288px + (510 - 288) * ((100vw - 320px) / (1920 - 320)));
         position: absolute;
         bottom: -6px;
-        right: 45px;
+        right: 290px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .translation {
+        &__image {
+            bottom: -6px;
+            right: 45px;
+        }
     }
 }
 
